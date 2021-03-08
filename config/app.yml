@@ -1,7 +1,7 @@
 ---
 app:
-  name: OpenDAX
-  domain: app.local
+  name: EIT Exchange
+  domain: ex.mind.mn
   subdomain: www
   show_landing: true
 render_protect: false
@@ -51,9 +51,9 @@ storage:
   signatureVersion: '2'
 twilio:
   enabled: false
-  phone_number: "+15005550000"
-  account_sid: changeme
-  auth_token: changeme
+  phone_number: "+16362491065"
+  account_sid: AC7f78bfad633d9b51b762bb2c0c732bb8
+  auth_token: 406b03009cc6eebf30ec37fd62c8010e
 gaTrackerKey: ''
 captcha:
   type: none
@@ -63,9 +63,9 @@ smtp:
   host: smtp.sendgrid.net
   port: 2525
   user: apikey
-  password: changeme
-  sender_email: noreply@barong.io
-  sender_name: Postmaster
+  password: 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
+  sender_email: noreply@ex.mind.mn
+  sender_name: EIT Exchange
   sender_logo: https://storage.googleapis.com/public_peatio/logo.png
 wallets:
   eth:
